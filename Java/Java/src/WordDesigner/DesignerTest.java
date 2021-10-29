@@ -8,8 +8,12 @@ public class DesignerTest {
 		Scanner entry = new Scanner(System.in);
 		
 		System.out.print("Give a word! : ");
-		String designedWord = object.design(entry.next());
-		System.out.println(designedWord);
+		String word = entry.next();
+		System.out.print("Give a special character! : ");
+		String specialChar = entry.next();
+		
+		System.out.println("\n!--- New word ---!");
+		System.out.println(object.design(word, specialChar));
 	}
 
 }
