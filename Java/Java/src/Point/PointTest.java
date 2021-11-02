@@ -4,13 +4,9 @@ public class PointTest {
 
 	public static void main(String[] args) {
 		
-		Point object1 = new Point();
-		object1.setX(10);
-		object1.setY(10);
+		Point object1 = new Point(10, 10);
 		
-		Point object2 = new Point();
-		object2.setX(4);
-		object2.setY(3);
+		Point object2 = new Point(4, 3);
 		
 		System.out.println("Object1 to Origin");
 		object1.calculateToOrigin();
