@@ -2,12 +2,15 @@
 
 int main(){
 	
-	int number = 1;
+	int counter, number;
 	
-	printf("N\t10*N\t100*N\t1000*N\n");
+	printf("Enter the max range: "); scanf("%d",&number);
 	
-	while(number <= 10){
-		printf("\n%d\t%d\t%d\t%d",number,(number * 10),(number * 100),(number * 1000));
-		number++;
+	printf("\n*********** Writing ***********");
+	printf("\nN\t10*N\t100*N\t1000*N\n");
+	
+	while(counter <= number){
+		printf("\n%d\t%d\t%d\t%d",counter, (counter * 10), (counter * 100), (counter * 1000));
+		counter++;
 	}
 }
