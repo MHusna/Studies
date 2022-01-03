@@ -2,8 +2,9 @@
 
 int main(){
 	
-	int number = 8, counter = 1, temp;
+	int number, counter = 1, temp;
 	
+	printf("Enter the size of design: "); scanf("%d",&number);
 	
 	while(counter <= number){
 		
