@@ -8,4 +8,6 @@ int main(){
 	result = pow(number, 3);
 	
 	printf("%-10.2f",result);
+
 }
+
