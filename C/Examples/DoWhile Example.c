@@ -6,7 +6,7 @@ int main(){
 	
 	printf("Enter the size: "); scanf("%d",&size);
 	
-	do{
+		do{
 		printf("Enter the number: "); scanf("%d",&number);
 		sum += number;
 		counter++;
